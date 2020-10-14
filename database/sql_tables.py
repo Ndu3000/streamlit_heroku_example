@@ -14,7 +14,7 @@ from database.engine_info import server_info
 
 # Creating a connection to MS SQL SERVER
 params = urllib.parse.quote_plus(server_info)
-engine = create_engine('mssql+pyodbc:///?odbc_connect=%s' % params, module=pypyodbc,echo=True)
+engine = create_engine('mssql+pyodbc:///?odbc_connect=%s' % params)
 connection = engine.connect()
 metadata = MetaData(bind=engine)
 
