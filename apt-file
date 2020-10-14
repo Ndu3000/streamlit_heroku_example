@@ -1,7 +1,1 @@
-# apt-get install apt-file
-apt-file update
-
-apt-get install unixodbc
-apt-get install unixodbc-dev
-apt-get install python-pyodbc
-apt-get install libsqliteodbc
+unixodbc unixodbc-dev
