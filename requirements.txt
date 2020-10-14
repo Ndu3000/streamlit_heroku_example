@@ -1,5 +1,5 @@
 pyodbc==4.0.25
-pypyodbc==1.3.4
+pypyodbc
 streamlit==0.67.1
 numpy==1.19.2
 matplotlib==3.0.2
