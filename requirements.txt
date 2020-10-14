@@ -1,4 +1,3 @@
-pyodbc==4.0.25
 pypyodbc
 streamlit==0.67.1
 numpy==1.19.2
