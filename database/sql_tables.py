@@ -7,13 +7,14 @@ import streamlit as st
 import urllib
 from sqlalchemy import create_engine, insert, Table, MetaData, select
 import pyodbc
+import pypyodbc
 
 # Custom upload with connection string
 from database.engine_info import server_info
 
 # Creating a connection to MS SQL SERVER
 params = urllib.parse.quote_plus(server_info)
-engine = create_engine('mssql+pyodbc:///?odbc_connect=%s' % params)
+engine = create_engine('mssql+pyodbc:///?odbc_connect=%s' % params, module=pypyodbc,echo=True)
 connection = engine.connect()
 metadata = MetaData(bind=engine)
 
