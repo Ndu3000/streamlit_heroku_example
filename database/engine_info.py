@@ -1,0 +1,1 @@
+server_info = 'DRIVER={FreeTDS}={SQL Server};SERVER=incubate-inventory-management.cnzbp4ndrpos.eu-west-1.rds.amazonaws.com;PORT=1433;DATABASE=Fresh_Produce_Market_Data;UID=admin;PWD=fXToh9AXt30Yi7dGdlI2;TDS_VERSION=7.2'
