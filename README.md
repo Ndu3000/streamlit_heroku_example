@@ -1,7 +1,2 @@
-A simple [Streamlit](https://streamlit.io) app that can be deployed to [Heroku](https://heroku.com).
-
-```bash
-$ heroku login
-$ heroku git:remote -a <heroku-project-name>
-$ git push heroku master
-```
+# Inventory-Streamlit-app
+Docker container for a Streamlit app that performs a brief analysis and provides basic planning for fresh produce inventory as a fresh produce retailer.
